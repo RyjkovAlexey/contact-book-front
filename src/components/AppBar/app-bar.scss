@@ -1,0 +1,28 @@
+@import '../../styles/common/vars';
+
+header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 10px;
+	background-color: $app-bar-bgc;
+}
+
+.auth_btns {
+	display: flex;
+	gap: 10px;
+	flex-basis: 300px;
+	margin-left: auto;
+
+	button {
+		padding: 10px;
+		border-radius: 6px;
+		border: 2px solid teal;
+	}
+}
+
+.control_btns {
+	display: flex;
+	gap: 10px;
+	flex-basis: 300px;
+}

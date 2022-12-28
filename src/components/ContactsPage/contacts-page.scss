@@ -1,0 +1,42 @@
+.contacts-page {
+	display: grid;
+	grid-template-rows: 1fr 15fr;
+
+	&__controls {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px;
+
+		input,
+		button {
+			width: max-content;
+			padding: 5px;
+			margin: auto;
+			border: solid 2px teal;
+			background-color: transparent;
+			border-radius: 6px;
+			font-size: 1.2rem;
+		}
+
+		input {
+			width: 300px;
+		}
+	}
+
+	&__contact-list {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		display: grid;
+		grid-auto-rows: max-content;
+		grid-gap: 15px;
+		overflow-y: auto;
+
+		&__contact-row {
+			display: flex;
+			gap: 15px;
+			width: 800px;
+			justify-content: space-evenly;
+		}
+	}
+}
